@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- X-Large: 200% of default values (values/dimen.xml) -->
+	
+    <!-- ELEMENTS DIMENSION -->
+    <dimen name="mic_size">400dp</dimen>					<!-- 200dp -->
+    <dimen name="progress_bar_size">300dp</dimen>			<!-- 150dp -->
+    <dimen name="big_element_size">160dp</dimen>			<!-- 80dp -->
+    <dimen name="small_element_size">100dp</dimen>			<!-- 50dp -->
+    <dimen name="lock_button_size">70dp</dimen>				<!-- 35dp -->
+    <dimen name="invisible">0dp</dimen>						<!-- 0dp -->
+    
+    
+    <!-- FONT SIZE -->
+    <dimen name="large_font_size">100dp</dimen>				<!-- 50dp -->
+    <dimen name="normal_font_size">60dp</dimen>				<!-- 30dp -->
+    <dimen name="small_font_size">40dp</dimen>				<!-- 20dp -->
+    
+    
+    <!-- MARGIN / PADDING -->
+    <dimen name="big_margin">80dp</dimen>					<!-- 40dp -->
+    <dimen name="medium_margin">60dp</dimen>				<!-- 30dp -->
+    <dimen name="small_margin">40dp</dimen>					<!-- 20dp -->
+    <dimen name="xsmall_margin">20dp</dimen>				<!-- 10dp -->
+    <dimen name="xxsmall_margin">14dp</dimen>				<!-- 7dp -->
+    <dimen name="mic_margin">-200dp</dimen>					<!-- -100dp -->
+    
+</resources>

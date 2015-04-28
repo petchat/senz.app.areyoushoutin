@@ -1,0 +1,55 @@
+* * * * * * * * * * * * * *
+* *  AreYouShouting?    * *
+* *  Copyright Notes    * *
+* * * * * * * * * * * * * *
+
+Author: Riccardo Leschiutta
+Website: http://www.riccardoleschiutta.com
+
+
+**************
+**  IMAGES  **
+**************
+
+* AreYouShouting? Icon *
+Link: http://game-icons.net/lorc/originals/shouting.html
+License: CC BY 3.0
+(If you want to use it, you must give appropriate credit to author)
+
+* Microphone *
+http://www.flaticon.com/free-icon/microphone-voice-interface-symbol_37571
+License: CC BY 3.0
+(If you want to use it, you must give appropriate credit to author)
+
+* Lock *
+Link: http://flaticons.net/customize.php?dir=Network%20and%20Security&icon=Lock.png
+License: Free
+
+
+
+***********
+** FONTS **
+***********
+
+* ChunkFive *
+Link: http://www.fontsquirrel.com/fonts/ChunkFive
+License: Free
+
+* Quicksand *
+Link: http://www.fontsquirrel.com/fonts/quicksand
+License: Free
+
+* Roboto-Light *
+Link: https://developer.android.com/design/downloads/index.html
+License: Free
+
+
+
+***************
+** LIBRARIES **
+***************
+
+* NumberPicker *
+Link: https://github.com/michaelrnovak/numberpicker
+License: Apache 2.0
+

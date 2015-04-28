@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent">
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/medium_margin"
+		android:gravity="center"
+		android:textSize="@dimen/large_font_size"
+		android:text="@string/settings"/>
+   
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title">
+        
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/small_margin">
+            
+        
+       <!-- Background Color --> 
+	   <TextView 
+	        android:id="@+id/backgroundColorLabel"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/small_margin"
+			android:gravity="center"
+			android:textSize="@dimen/small_font_size"
+			android:text="@string/background_color"/>
+	    
+	   <HorizontalScrollView
+	        android:id="@+id/backgroundColorHorizontalScrollView"
+       		android:layout_width="match_parent"
+        	android:layout_height="@dimen/big_element_size"
+        	android:layout_below="@id/backgroundColorLabel"
+        	android:layout_marginTop="@dimen/xxsmall_margin">
+        	
+       		<LinearLayout
+            	android:id="@+id/backgroundColorGallery"
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:orientation="horizontal"/>
+   	   </HorizontalScrollView>
+	   
+
+	   <!-- Text/Icons Color --> 
+	   <TextView 
+	        android:id="@+id/textIconsColorLabel"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/backgroundColorHorizontalScrollView"
+			android:layout_marginTop="@dimen/small_margin"
+			android:gravity="center"
+			android:textSize="@dimen/small_font_size"
+			android:text="@string/text_icons_color"/>
+	   
+	   <HorizontalScrollView
+	        android:id="@+id/textIconsColorHorizontalScrollView"
+       		android:layout_width="match_parent"
+        	android:layout_height="@dimen/small_element_size"
+        	android:layout_below="@id/textIconsColorLabel"
+        	android:layout_marginTop="@dimen/xxsmall_margin">
+        	
+       		<LinearLayout
+            	android:id="@+id/textIconsColorGallery"
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:orientation="horizontal"/>
+       </HorizontalScrollView>
+	   
+	      
+	   <!-- Loud Voice Level -->
+	   <Button 
+	        android:id="@+id/loudVoiceLevelButton"
+	        android:background="@drawable/button"
+	        android:layout_width="@dimen/big_element_size"
+	        android:layout_height="@dimen/small_element_size"
+	        android:layout_below="@id/textIconsColorHorizontalScrollView"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="@dimen/xsmall_margin"
+	        android:layout_marginTop="@dimen/medium_margin"
+	        android:textColor="@drawable/button_text_color"
+	        android:textSize="@dimen/small_font_size"/>
+	   
+	    <TextView
+	        android:id="@+id/loudVoiceLevelLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="@dimen/xsmall_margin"
+	        android:layout_alignBaseline="@id/loudVoiceLevelButton"
+	        android:textSize="@dimen/small_font_size"
+	        android:text="@string/loud_voice_level"/>
+	    
+	    
+	   <!-- Decibel Sensibility -->
+	   <Button 
+	        android:id="@+id/decibelSensibilityButton"
+	        android:background="@drawable/button"
+	        android:layout_width="@dimen/big_element_size"
+	        android:layout_height="@dimen/small_element_size"
+	        android:layout_below="@id/loudVoiceLevelButton"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="@dimen/xsmall_margin"
+	        android:layout_marginTop="@dimen/medium_margin"
+	        android:textColor="@drawable/button_text_color"
+	        android:textSize="@dimen/small_font_size"/>
+	   
+	    <TextView
+	        android:id="@+id/decibelSensibilityLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="@dimen/xsmall_margin"
+	        android:layout_alignBaseline="@id/decibelSensibilityButton"
+	        android:textSize="@dimen/small_font_size"
+	        android:text="@string/decibel_sensibility"/>
+    
+
+	   <!-- Temporary Files Storage CheckBox -->
+	   <CheckBox
+	        android:id="@+id/deleteTempFilesCheckBox"
+	        android:layout_width="@dimen/small_element_size"
+	        android:layout_height="@dimen/small_element_size"
+	        android:layout_below="@id/decibelSensibilityButton"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="@dimen/small_margin"
+	        android:layout_marginRight="@dimen/xsmall_margin"/>
+	   
+	   <TextView
+	        android:id="@+id/deleteTempFilesLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignTop="@id/deleteTempFilesCheckBox"
+	        android:layout_toLeftOf="@id/deleteTempFilesCheckBox"
+	        android:layout_marginLeft="@dimen/xsmall_margin"
+	        android:textSize="@dimen/small_font_size"
+	        android:text="@string/delete_temp_files"/>
+	   
+   </RelativeLayout>
+   </ScrollView>
+</RelativeLayout>

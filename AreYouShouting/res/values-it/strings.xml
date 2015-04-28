@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Strings - lang:IT -->
+    <string name="app_name">Are You Shouting?</string>
+    
+    <string name="title">Are You\nShouting?</string>
+    <string name="settings">Settings</string>
+    <string name="checkNow">Controlla Ora</string>
+    
+    <string name="background_color">Colore di Sfondo:</string>
+    <string name="text_icons_color">Colore di Testo / Icone:</string>
+    <string name="loud_voice_level">Soglia limite</string>
+    <string name="decibel_sensibility">Sensibilita\'</string>
+    <string name="delete_temp_files">Non memorizzare i file temporanei di registrazione</string>
+    
+    <string name="external_storage_error">Errore: Memoria esterna non presente!</string>
+    <string name="recorded_to">Audio registrato nel file:\n</string>
+    <string name="volume_message">Stai urlando!\nPuoi abbassare il volume?</string>
+    <string name="error_incompatible_colors">Colore di Sfondo e di Testo / Icone devono esser diversi!</string>
+    
+    <string name="notification_title">Are You Shouting?</string>
+    <string name="notification_text">L\'App e\' alla ricerca di suoni troppo alti&#8230;</string>
+    
+    <string name="content_description">Here goes the Content Description</string>
+    
+    <string name="default_decibel_text">00 / 00 dB</string>
+    
+    <string name="number_picker_positive_button">OK</string>
+    <string name="number_picker_negative_button">Annulla</string>
+    
+</resources>

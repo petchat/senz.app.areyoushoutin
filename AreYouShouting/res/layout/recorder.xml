@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent">
+    
+    <!-- Empty Element, used to better align the other Views -->
+    <TextView 
+        android:id="@+id/centeredEmptyElement"
+        android:layout_width="@dimen/invisible"
+		android:layout_height="@dimen/invisible"
+		android:layout_centerInParent="true"/>
+    
+    <!-- Mic ImageButton, ProgressBar and TextView container -->
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/centeredEmptyElement"
+		android:layout_marginBottom="@dimen/mic_margin"
+		android:layout_centerHorizontal="true">
+		
+        <ImageButton
+	        android:id="@+id/micButton"
+	        android:contentDescription="@string/content_description"
+	        android:layout_width="@dimen/mic_size"
+			android:layout_height="@dimen/mic_size"/>
+		
+    	<ProgressBar
+	        android:id="@+id/progressBar"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:progressDrawable="@drawable/progressbar"
+	        android:layout_width="@dimen/progress_bar_size"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="@dimen/xsmall_margin"
+	        android:layout_below="@id/micButton"
+	        android:layout_centerHorizontal="true"/>
+    	
+    	<TextView
+    	    android:id="@+id/soundVolumeTextView"
+    	    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="@dimen/xsmall_margin"
+	        android:layout_below="@id/progressBar"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="@dimen/normal_font_size"
+	        android:text="@string/default_decibel_text"/>
+    
+    </RelativeLayout>
+    
+    <ImageButton 
+        android:id="@+id/lockButton"
+        android:contentDescription="@string/content_description"
+        android:layout_width="@dimen/lock_button_size"
+        android:layout_height="@dimen/lock_button_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/small_margin"/>
+     
+</RelativeLayout>
