@@ -176,7 +176,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:defaultValue
         */
-        public static final int numberpicker_defaultValue = 3;
+        public static int numberpicker_defaultValue = 3;
         /**
           <p>This symbol is the offset where the {@link com.michaelnovakjr.numberpicker.R.attr#endRange}
           attribute's value can be found in the {@link #numberpicker} array.
@@ -190,7 +190,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:endRange
         */
-        public static final int numberpicker_endRange = 1;
+        public static int numberpicker_endRange = 1;
         /**
           <p>This symbol is the offset where the {@link com.michaelnovakjr.numberpicker.R.attr#maxValue}
           attribute's value can be found in the {@link #numberpicker} array.
@@ -204,7 +204,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:maxValue
         */
-        public static final int numberpicker_maxValue = 4;
+        public static int numberpicker_maxValue = 4;
         /**
           <p>This symbol is the offset where the {@link com.michaelnovakjr.numberpicker.R.attr#startRange}
           attribute's value can be found in the {@link #numberpicker} array.
@@ -218,7 +218,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:startRange
         */
-        public static final int numberpicker_startRange = 0;
+        public static int numberpicker_startRange = 0;
         /**
           <p>This symbol is the offset where the {@link com.michaelnovakjr.numberpicker.R.attr#step}
           attribute's value can be found in the {@link #numberpicker} array.
@@ -232,7 +232,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:step
         */
-        public static final int numberpicker_step = 2;
+        public static int numberpicker_step = 2;
         /**
           <p>This symbol is the offset where the {@link com.michaelnovakjr.numberpicker.R.attr#wrap}
           attribute's value can be found in the {@link #numberpicker} array.
@@ -246,6 +246,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.michaelnovakjr.numberpicker:wrap
         */
-        public static final int numberpicker_wrap = 5;
+        public static int numberpicker_wrap = 5;
     };
 }

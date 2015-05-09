@@ -16,6 +16,7 @@
  */
 package com.areyoushouting;
 
+import com.kiding.areyoushouting.R;
 import com.michaelnovakjr.numberpicker.NumberPicker;
 import com.michaelnovakjr.numberpicker.NumberPickerDialog;
 

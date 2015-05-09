@@ -1,5 +1,7 @@
 package com.areyoushouting;
 
+import com.kiding.areyoushouting.R;
+
 /** Interface that contains settings names and values, used in different Activities */
 public interface AreYouShoutingInterface {
 	
