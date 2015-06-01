@@ -51,7 +51,7 @@ public class MainActivity extends Activity implements AreYouShoutingInterface {
 		Log.i("MainActivity", "==>onCreate()");
 		super.onCreate(savedInstanceState);
 
-		// 在原有录音结束后，开启service
+		
 		// --- alarm manager by 帅---
 		am = (AlarmManager) MainActivity.this
 				.getSystemService(Context.ALARM_SERVICE);
@@ -70,6 +70,7 @@ public class MainActivity extends Activity implements AreYouShoutingInterface {
 					com.senz.data.collector.SampleService.class);
 			stopService(intent);
 		}
+		
 
 		// --- Hide App's Title ---
 		requestWindowFeature(Window.FEATURE_NO_TITLE);

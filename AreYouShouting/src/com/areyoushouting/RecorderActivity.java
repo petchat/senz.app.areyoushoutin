@@ -275,9 +275,16 @@ public class RecorderActivity extends Activity implements
 	 * reduce resources consuming
 	 **/
 	private synchronized void startBufferedWrite(final File file) {
+		
+		
+		
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
+				
+				Log.i("startBufferedWrite","==> running");
+				
+				
 				DataOutputStream output = null;
 				try {
 					output = new DataOutputStream(new BufferedOutputStream(
@@ -392,10 +399,10 @@ public class RecorderActivity extends Activity implements
 		// old sound decibel by more than 'decibelSensibility' ---
 		this.runOnUiThread(new Thread() {
 			public void run() {
-				Log.i("RecorderActivity",
-						"==>"
-								+ soundVolumeTextView.getText().toString()
-										.substring(0, 2));
+//				Log.i("RecorderActivity",
+//						"==>"
+//								+ soundVolumeTextView.getText().toString()
+//										.substring(0, 2));
 				// 要去除空格
 				int oldDecibel = Integer.parseInt(soundVolumeTextView.getText()
 						.toString().substring(0, 2).replace(" ", ""));
